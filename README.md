@@ -25,6 +25,7 @@ Put this and [GBlinkDX](https://github.com/tzlion/gblinkdx) in the same folder. 
 
 - Run `gblinkdl.gb` from your flashcart (see GBlinkDX docs where to find it)
 - Make a hotswap to your game of choice
+- Plug in cable
 - Run tool
 
 You can pass the filename as an argument. If you don't, it becomes `output.sav`.
@@ -41,10 +42,11 @@ You can pass the filename as an argument. If you don't, it becomes `output.sav`.
 
 You need one Game Boy less. But instead you need:
 - One more motherboard with parallel port
-- One Game Link cable you are willing to destroy
-- Depending on your motherboard:
-  - If it has a parallel port: A parallel cable you are willing to destroy, plus some clips to fix the cables together.
-  - If it has a parallel header: 4 to 7 DuPont wires, some hot glue, and your motherboard's manual to look up the pins.
+- If you don't have a compatible cable yet:
+  - One Game Link cable you are willing to destroy (you can make two of these cables with just one destroyed link cable)
+  - Depending on your motherboard:
+    - If it has a parallel port: A parallel cable you are willing to destroy, plus some clips to fix the cables together.
+    - If it has a parallel header: 4 to 7 DuPont wires, some hot glue, and your motherboard's manual to look up the pins.
  
 When you make a cable, do note that the schematic on Brian's archived page shows the parallel _cable's plug_ but the Game Boy's Link _jack_.
 
